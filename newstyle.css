@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    height: 70%;
+    width: 50%;
+    background-color: #001524;
+    padding: 10px 20px;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    color: white;
+}
+
+.generator {
+    color: #80b918;
+}
+
+.output {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.outputContent {
+    height: 100%;
+    width: 94%;
+    /* background-color: aqua; */
+}
+
+.output button {
+    background-color: #001524;
+    /* border: none; */
+}
+
+.Slider {
+    margin-top: 1.5%;
+    height: 10%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #80b918;
+
+}
+
+#length {
+    width: 40%;
+    /* background-color: #80b918; */
+    accent-color: #80b918;
+}
+
+.lenghtOutput {
+    height: 80%;
+    width: 5%;
+    background-color: beige;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.type {
+    margin-top: 1.5%;
+    height: 10%;
+    width: 100%;
+    /* background-color:blue ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #80b918;
+}
+
+.generate {
+    height: 15%;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.generate button {
+    height: 90%;
+    width: 30%;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: #80b918;
+    color: #fff;
+    transform: scale(1,1);
+    transition: 0.2s ease-in-out;
+}
+
+.generate button:hover{
+    transform: scale(1.1,1.1);
+
+}
+
+
+.outputContent{
+    font-size: xx-large;
+    color: #80b918;
+    font-weight: bolder;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
